@@ -1,0 +1,13 @@
+add, sub,multi, divi
+#include <stdio.h>
+int main() {
+    int a=5,b=4;
+    int sum,sub,multi,divi;
+    sum=a+b;
+    sub=a-b;
+    multi=a*b;
+    divi=a/b;
+    
+    printf("sum=%d,sub=%d,multi=%d,divi=%d:",sum,sub,multi,divi);
+return 0;
+}
